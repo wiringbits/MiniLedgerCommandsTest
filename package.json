@@ -1,0 +1,20 @@
+{
+  "name": "wallettest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jonathan",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "@ledgerhq/hw-app-btc": "4.33.6",
+    "@ledgerhq/hw-transport-node-hid": "^4.62.0",
+    "@ledgerhq/hw-transport-u2f": "4.32.0",
+    "@ledgerhq/hw-transport-webusb": "^4.62.0",
+    "bitcoinjs-lib": "4.0.2",
+    "typescript": "^3.5.2"
+  }
+}
